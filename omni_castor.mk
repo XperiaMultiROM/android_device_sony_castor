@@ -16,7 +16,6 @@
 $(call inherit-product, device/sony/castor/aosp_sgp521.mk)
 
 # Inherit Omni GSM telephony parts
-$(call inherit-product, device/sony/common/radio.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit from our custom product configuration
